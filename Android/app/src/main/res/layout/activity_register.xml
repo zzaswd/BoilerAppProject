@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/page_register">
+
+        <LinearLayout
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이름 : "
+                    android:layout_marginTop="215dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   ID : "
+                    android:layout_marginTop="32dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" PW : "
+                    android:layout_marginTop="29dp"
+                    />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <EditText
+                    android:id="@+id/tv_namenew"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="215dp"
+                    android:background="#FFEB3B"
+                    />
+
+                <EditText
+                    android:id="@+id/tv_idnew"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFEB3B"
+                    />
+
+                <EditText
+                    android:id="@+id/tv_pwnew"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="#FFEB3B"
+                    />
+
+                <Button
+                    android:id="@+id/btn_regnew"
+                    android:layout_width="340dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    />
+        </LinearLayout>
+
+</LinearLayout>

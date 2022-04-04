@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3Activity"
+    android:background="@drawable/boiler"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="95dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3BFF83"
+        android:text="보일러상태 "
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:background="#FF9800"
+        android:text="보일러온도 "
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+        <Button
+            android:id="@+id/btn_setstat"
+            android:text="상태"
+            android:layout_gravity="center"
+            android:textSize="50sp"
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:background="#FF5722"/>
+        <Button
+            android:id="@+id/btn_settemp"
+            android:text="온도"
+            android:layout_gravity="center"
+            android:textSize="50sp"
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:background="#2196F3"/>
+        <Button
+            android:id="@+id/btn_logout"
+            android:text="로그아웃"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:background="#C6C1C1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
